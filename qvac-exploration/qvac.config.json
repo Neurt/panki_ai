@@ -1,0 +1,27 @@
+{
+  "_comment": "Pi 4B 4GB profile. Qwen3 0.6B Q4 for chat/classification, GTE-large FP16 for embeddings. ctx_size kept modest to leave headroom for KV cache + Node + vector DB. Bump ctx_size to 4096 only after smoke test confirms RAM headroom.",
+  "serve": {
+    "models": {
+      "panki-llm": {
+        "model": "QWEN3_600M_INST_Q4",
+        "default": true,
+        "preload": true,
+        "config": {
+          "ctx_size": 2048,
+          "tools": true,
+          "temp": 0.2,
+          "top_p": 0.9,
+          "system_prompt": "You are Panki, a BPOM regulatory assistant. Answer in JSON when asked. Never invent regulation numbers."
+        }
+      },
+      "panki-embed": {
+        "model": "GTE_LARGE_FP16",
+        "default": true,
+        "config": {
+          "batchSize": 16,
+          "pooling": "mean"
+        }
+      }
+    }
+  }
+}

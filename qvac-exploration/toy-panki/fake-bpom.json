@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PBPOM-2019-11-biscuits-microbio",
+    "category": "biscuits",
+    "regulation": "PerBPOM No. 11 Tahun 2019",
+    "article": "Lampiran II, kategori 07.1",
+    "text": "Biskuit dan produk sejenis wajib memenuhi batas cemaran mikroba: Angka Lempeng Total (ALT) maksimum 1x10^4 koloni/g, kapang dan khamir maksimum 1x10^2 koloni/g, dan tidak terdeteksi Salmonella per 25 g.",
+    "test_parameters": ["ALT", "kapang dan khamir", "Salmonella"]
+  },
+  {
+    "id": "PBPOM-2019-11-biscuits-heavy-metals",
+    "category": "biscuits",
+    "regulation": "PerBPOM No. 11 Tahun 2019",
+    "article": "Lampiran III",
+    "text": "Cemaran logam berat pada produk biskuit: Timbal (Pb) maksimum 0,2 mg/kg, Kadmium (Cd) maksimum 0,1 mg/kg, Arsen (As) maksimum 0,5 mg/kg, Merkuri (Hg) maksimum 0,03 mg/kg.",
+    "test_parameters": ["Pb", "Cd", "As", "Hg"]
+  },
+  {
+    "id": "PBPOM-2022-20-beverages-microbio",
+    "category": "beverages",
+    "regulation": "PerBPOM No. 20 Tahun 2022",
+    "article": "Lampiran I, kategori 14.1.4",
+    "text": "Minuman ringan berkarbonasi: ALT maksimum 1x10^2 koloni/ml, koliform maksimum 20 APM/100 ml, Escherichia coli negatif/100 ml.",
+    "test_parameters": ["ALT", "koliform", "E. coli"]
+  },
+  {
+    "id": "PBPOM-2022-20-beverages-sweeteners",
+    "category": "beverages",
+    "regulation": "PerBPOM No. 20 Tahun 2022",
+    "article": "Lampiran II",
+    "text": "Bahan tambahan pangan pemanis buatan pada minuman berkarbonasi: aspartam maksimum 600 mg/kg, sakarin maksimum 80 mg/kg. Wajib uji kuantitatif kadar pemanis.",
+    "test_parameters": ["aspartam kuantitatif", "sakarin kuantitatif"]
+  },
+  {
+    "id": "PBPOM-2020-32-supplements-active",
+    "category": "supplements",
+    "regulation": "PerBPOM No. 32 Tahun 2020",
+    "article": "Pasal 15",
+    "text": "Suplemen kesehatan dengan klaim wajib menjalani uji kadar bahan aktif (assay), uji disolusi bila berbentuk tablet atau kapsul, uji cemaran mikroba, dan uji cemaran logam berat.",
+    "test_parameters": ["assay bahan aktif", "uji disolusi", "cemaran mikroba", "logam berat"]
+  },
+  {
+    "id": "PBPOM-2020-32-supplements-stability",
+    "category": "supplements",
+    "regulation": "PerBPOM No. 32 Tahun 2020",
+    "article": "Pasal 18",
+    "text": "Suplemen kesehatan wajib menyertakan data uji stabilitas (real-time minimum 6 bulan atau accelerated 3 bulan) sebagai dasar penetapan masa simpan.",
+    "test_parameters": ["uji stabilitas real-time", "uji stabilitas accelerated"]
+  },
+  {
+    "id": "PBPOM-2018-08-dairy-microbio",
+    "category": "dairy",
+    "regulation": "PerBPOM No. 8 Tahun 2018",
+    "article": "Lampiran kategori 01.1",
+    "text": "Susu pasteurisasi: ALT maksimum 5x10^4 koloni/ml, koliform <1 APM/ml, Listeria monocytogenes tidak terdeteksi per 25 ml, Salmonella tidak terdeteksi per 25 ml.",
+    "test_parameters": ["ALT", "koliform", "Listeria", "Salmonella"]
+  },
+  {
+    "id": "PBPOM-2018-08-dairy-composition",
+    "category": "dairy",
+    "regulation": "PerBPOM No. 8 Tahun 2018",
+    "article": "Lampiran kategori 01.1",
+    "text": "Susu pasteurisasi: kadar lemak susu minimum 3,0 % b/b, kadar protein minimum 2,8 % b/b, kadar bahan kering tanpa lemak minimum 8,0 %.",
+    "test_parameters": ["kadar lemak", "kadar protein", "bahan kering tanpa lemak"]
+  },
+  {
+    "id": "PBPOM-2022-20-functional-beverage-borderline",
+    "category": "functional_beverages",
+    "regulation": "PerBPOM No. 20 Tahun 2022 & No. 32 Tahun 2020",
+    "article": "Catatan klasifikasi",
+    "text": "Minuman dengan klaim fungsional yang mengandung bahan aktif suplementatif (vitamin tinggi, ekstrak herbal terstandar) berada di batas kategori minuman dan suplemen. Penentuan jalur registrasi memerlukan evaluasi kandungan bahan aktif dan klaim label.",
+    "test_parameters": ["evaluasi klaim", "kadar bahan aktif", "uji cemaran"]
+  },
+  {
+    "id": "PBPOM-general-labeling",
+    "category": "all",
+    "regulation": "PerBPOM No. 31 Tahun 2018",
+    "article": "Pasal 5 - 12",
+    "text": "Setiap produk pangan olahan wajib memenuhi ketentuan label: nama produk, daftar bahan, berat bersih, nama dan alamat produsen/importir, kode produksi, masa simpan, nomor izin edar, dan informasi nilai gizi bila relevan.",
+    "test_parameters": ["pemeriksaan label", "verifikasi nilai gizi"]
+  }
+]
