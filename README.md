@@ -1,5 +1,5 @@
-<img width="767" height="1600" alt="image" src="https://github.com/user-attachments/assets/d8a9de12-835d-4111-b675-c33915f4fb3f" />
-<img width="765" height="1600" alt="image" src="https://github.com/user-attachments/assets/a3373856-0b9c-457f-98e0-b154f84813cd" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/d8a9de12-835d-4111-b675-c33915f4fb3f" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/a3373856-0b9c-457f-98e0-b154f84813cd" />
 
 Panki AI : Project Summary & Demo Guide
 An offline first BPOM compliance assistant running local AI on a $75 Raspberry Pi 4B, powered by QVAC.
